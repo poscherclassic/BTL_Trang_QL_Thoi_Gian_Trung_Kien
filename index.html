@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web quản lý thời gian và học tập </title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Chào mừng bạn đến với trang web cá nhân hóa thời gian học tập của bạn</h1>
+  <nav>
+        <a href="#thoi_khoa_bieu"><strong>Thời Khóa Biểu</strong></a>
+        <a href="#lich_trinh"><strong>Lịch Trình</strong></a>
+        <a href="#task_list"><strong>Danh Sách Công Việc</strong></a>
+        <a href="#lich"><strong>Lịch</strong></a>
+        <a href="#lien_ket"><strong>Liên Kết</strong></a>
+    </nav>
+    <section id="thoi_khoa_bieu">
+        <h2>Thời Khóa Biểu của bạn</h2>
+        <table>
+            <caption>Thời khóa biểu</caption>
+            <thead>
+                <tr>
+                    <th>Thứ 2</th>
+                    <th>Thứ 3</th>
+                    <th>Thứ 4</th>
+                    <th>Thứ 5</th>
+                    <th>Thứ 6</th>
+                    <th>Thứ 7</th>
+                    <th>Chủ nhật</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true">Nghỉ</td>
+                    <td contenteditable="true">Nghỉ</td>
+                    <td contenteditable="true">Nhập môn CNTT</td>
+                    <td contenteditable="true">Kỹ năng mềm</td>
+                    <td contenteditable="true">Hệ thống máy tính</td>
+                    <td contenteditable="true">Lập trình Web, Triển khai hệ thống phần mềm</td>
+                    <td contenteditable="true">Nghỉ</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="lich_trinh">
+        <h2>Lịch trình của bạn</h2>
+        <p>hãy nhập lịch trình của bạn vào đây:</p>
+        <label for="lich_trinh"></label>
+        <textarea id="lich_trinh" name="lich_trinh" rows="5" placeholder="nhập lịch trình của bạn"></textarea>
+    </section>
+    <section id="task_list">
+<h2>danh sách công việc của bạn:</h2>
+<p>Hãy điền và check list công việc của bạn:</p>
+        <ul>
+            <li>
+                <input type="checkbox" id="task1">
+                <label for="task1">làm bài tập:</label>
+                <span contenteditable="true">thời gian hoàn thành</span>
+            </li>
+            <li>
+                <input type="checkbox" id="task2">
+                <label for="task2">học:</label>
+                <span contenteditable="true">thời gian hoàn thành</span>
+            </li>
+            <li>
+                <input type="checkbox" id="task3">
+                <label for="task3">học:</label>
+                <span contenteditable="true">thời gian hoàn thành</span>
+            </li>
+            <li>
+                <input type="checkbox" id="task4">
+                <label for="task4">làm việc khác:</label>
+                <span contenteditable="true">thời gian hoàn thành</span>
+            </li>
+            <li>
+                <input type="checkbox" id="task5">
+                <label for="task5">làm việc cá nhân:</label>
+                <span contenteditable="true">thời gian hoàn thành</span>
+            </li>
+        </ul>
+    </section>
+    <section id="lich">
+        <h2>Lịch tuần</h2>
+        <p>lịch tuần để bạn dễ xem ngày nè</p>
+        <label for="ngay">Chọn ngày:</label>
+<input type="date" id="ngay" name="ngay">
+<textarea id="lich" name="lich" rows="5" placeholder="bạn có sự kiện nào trong ngày hôm nay không?"></textarea>
+    </section>
+    </body>
+    <footer>
+        <section id="lien_ket">
+            <hr>
+            <h2>Liên Kết</h2>
+            <a href="https://github.com/poscherclassic/BTL_Do_Trung_Kien_2071020107" target="_blank">GitHub</a>
+            <a href="https://www.facebook.com/share/1JaMmRdSMH/" target="_blank">Facebook</a>
+        </section>
+        <p> @ bản quyền thuộc Trung Kiên</p>
+    </footer>
+</html>
