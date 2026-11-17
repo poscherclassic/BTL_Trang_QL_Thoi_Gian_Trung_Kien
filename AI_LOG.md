@@ -6,9 +6,10 @@ Tệp này ghi nhận sự hỗ trợ AI có thể xác nhận trong lượt là
 
 ## Hỗ trợ trong lượt này
 
-- Đọc cấu trúc và mã nguồn hiện có để tóm tắt chức năng, công nghệ và giới hạn dự án.
-- Soạn README, CHANGELOG và tài liệu giải thích HTML/CSS kèm câu hỏi ôn tập.
-- Phân tích dấu hiệu AI dựa trên mã và lịch sử commit có thể xem được; kết luận được trình bày như nhận xét, không phải kết quả phát hiện chắc chắn.
+- Đọc cấu trúc và mã nguồn để tóm tắt chức năng, công nghệ và giới hạn của website.
+- Soạn README, CHANGELOG, AI log và tài liệu Word giải thích HTML/CSS kèm câu hỏi ôn tập.
+- Theo yêu cầu, gỡ tài liệu Word khỏi GitHub; bản Word vẫn nằm trong thư mục dự án cục bộ và không còn được liệt kê như tệp của repository.
+- Phân tích dấu hiệu AI dựa trên mã và lịch sử commit có thể xem được; đây là nhận xét, không phải kết quả phát hiện chắc chắn.
 
 ## Trách nhiệm rà soát
 
