@@ -36,8 +36,7 @@ Có thể chạy bằng tiện ích Live Server trong VS Code để tự tải l
 │   └── anh_chan_dung.jpg
 ├── README.md
 ├── CHANGELOG.md
-├── AI_LOG.md
-└── HTML_CSS_Giai_Thich_va_Cau_Hoi.docx
+└── AI_LOG.md
 ```
 
 ## Giới hạn hiện tại
@@ -48,7 +47,6 @@ Các trường ghi chú, ngày và ô `contenteditable` chỉ thay đổi nội 
 
 - [Lịch sử thay đổi](CHANGELOG.md)
 - [Nhật ký sử dụng AI](AI_LOG.md)
-- [Tài liệu giải thích HTML, CSS và câu hỏi bảo vệ](HTML_CSS_Giai_Thich_va_Cau_Hoi.docx)
 
 ## Tác giả
 
