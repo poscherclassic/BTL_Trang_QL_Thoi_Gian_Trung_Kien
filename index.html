@@ -7,37 +7,55 @@
     <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+    <header class="site-header">
+        <img src="assets/anh_chan_dung.jpg" alt="Ảnh đại diện của Trung Kiên">
         <h1>Chào mừng bạn đến với trang web cá nhân hóa thời gian học tập của bạn</h1>
-  <nav>
+    </header>
+    <nav>
         <a href="#thoi_khoa_bieu"><strong>Thời Khóa Biểu</strong></a>
         <a href="#lich_trinh"><strong>Lịch Trình</strong></a>
         <a href="#task_list"><strong>Danh Sách Công Việc</strong></a>
         <a href="#lich"><strong>Lịch</strong></a>
         <a href="#lien_ket"><strong>Liên Kết</strong></a>
     </nav>
+    <main>
     <section id="thoi_khoa_bieu">
         <h2>Thời Khóa Biểu của bạn</h2>
         <table>
             <caption>Thời khóa biểu</caption>
             <thead>
                 <tr>
-                    <th>Thứ 2</th>
-                    <th>Thứ 3</th>
-                    <th>Thứ 4</th>
-                    <th>Thứ 5</th>
-                    <th>Thứ 6</th>
-                    <th>Thứ 7</th>
-                    <th>Chủ nhật</th>
+                    <th scope="col">Ngày</th>
+                    <th scope="col">Môn học / Hoạt động</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <th scope="row">Thứ 2</th>
                     <td contenteditable="true">Nghỉ</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thứ 3</th>
                     <td contenteditable="true">Nghỉ</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thứ 4</th>
                     <td contenteditable="true">Nhập môn CNTT</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thứ 5</th>
                     <td contenteditable="true">Kỹ năng mềm</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thứ 6</th>
                     <td contenteditable="true">Hệ thống máy tính</td>
+                </tr>
+                <tr>
+                    <th scope="row">Thứ 7</th>
                     <td contenteditable="true">Lập trình Web, Triển khai hệ thống phần mềm</td>
+                </tr>
+                <tr>
+                    <th scope="row">Chủ nhật</th>
                     <td contenteditable="true">Nghỉ</td>
                 </tr>
             </tbody>
@@ -46,8 +64,8 @@
     <section id="lich_trinh">
         <h2>Lịch trình của bạn</h2>
         <p>hãy nhập lịch trình của bạn vào đây:</p>
-        <label for="lich_trinh"></label>
-        <textarea id="lich_trinh" name="lich_trinh" rows="5" placeholder="nhập lịch trình của bạn"></textarea>
+        <label for="noi_dung_lich_trinh">Ghi chú lịch trình:</label>
+        <textarea id="noi_dung_lich_trinh" name="lich_trinh" rows="5" placeholder="nhập lịch trình của bạn"></textarea>
     </section>
     <section id="task_list">
 <h2>danh sách công việc của bạn:</h2>
@@ -85,9 +103,9 @@
         <p>lịch tuần để bạn dễ xem ngày nè</p>
         <label for="ngay">Chọn ngày:</label>
 <input type="date" id="ngay" name="ngay">
-<textarea id="lich" name="lich" rows="5" placeholder="bạn có sự kiện nào trong ngày hôm nay không?"></textarea>
+<textarea id="ghi_chu_lich" name="lich" rows="5" placeholder="bạn có sự kiện nào trong ngày hôm nay không?"></textarea>
     </section>
-    </body>
+    </main>
     <footer>
         <section id="lien_ket">
             <hr>
@@ -97,4 +115,5 @@
         </section>
         <p> @ bản quyền thuộc Trung Kiên</p>
     </footer>
+    </body>
 </html>
