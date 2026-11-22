@@ -51,4 +51,3 @@ Các trường ghi chú, ngày và ô `contenteditable` chỉ thay đổi nội 
 ## Tác giả
 
 Đồ án website quản lý thời gian và học tập của Trung Kiên.
-

@@ -16,4 +16,3 @@ Các mốc dưới đây được tổng hợp từ lịch sử commit hiện c�
 ## Phạm vi hiện tại
 
 Trang gồm thời khóa biểu, ghi chú lịch trình, danh sách công việc, chọn ngày/ghi chú và liên kết mạng xã hội. Dự án dùng HTML/CSS tĩnh; chưa có lưu trữ dữ liệu hay JavaScript.
-
